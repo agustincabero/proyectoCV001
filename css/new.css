@@ -1,0 +1,84 @@
+body{
+	background: #90caf9;
+}
+.parrafo span{
+	color: red;
+	font-weight: lighter;
+}
+.seccion{
+	font-family: 'Neuton', serif;
+	margin: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 75%;
+	float: right;
+	background: #e3f2fd;
+	border-radius: 20px 50px;	
+}
+.titulo-seccion {
+	font-family: 'Neuton', serif;
+	color: #212121;
+	font-weight: lighter;
+	font-size: 25px;
+	font-weight: bold;
+}
+.punto-seccion {
+	font-family: 'Neuton', serif;
+	color: #757575;
+	font-weight: lighter;
+	font-size: 20px
+}
+.parrafo{
+	font-family: 'Neuton', serif;
+	color: #212121;
+}
+.proyectos{
+	height: 240px;
+	width: 240px;
+    float: left;    
+}
+.barra{
+	float:left;
+	width: 22%;
+	margin: 10px;
+}
+#foto{
+	margin-top: 130px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.boton{	
+	padding: 5px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 27%;
+}
+#nombre {
+	font-family: 'Roboto Slab', serif;
+	color: #212121;
+	font-weight: bolder;
+	font-size: 40px;
+}
+#puesto {
+	font-family: 'Neuton', serif;
+	color: #757575;
+	font-weight: lighter;
+	font-size: 22px
+}
+#datos{
+	font-family: 'Roboto Slab', serif;
+	color: #212121;	
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
