@@ -1,44 +1,33 @@
 <!DOCTYPE html>
-<html lang="es">
- 
+<html lang="es"> 
   <head>    
     <title>Proyecto CV</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="css/new.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.png"/>
   </head>
-
   <body>
     <!-- barra lateral con foto de perfil y botones de navegacion -->
-    <nav class="barra">
-      
+    <nav class="barra">      
       <!-- foto de perfil -->
-      <div class="avatar" style="background-image: url('https://affif-sitepublic-media-prod.s3.amazonaws.com/media_image/0001/16/thumb_15818_media_image_x584.png')"></div>
-
-      <!-- <div>
-        <img class="circle responsive-img" id="avatar" src="imagenes/tim-roth-3.png">
-      </div> -->
-
+      <div>
+        <img class="avatar" src="imagenes/avatar.png">
+      </div>
       <!-- botones -->
       <div>
-        <!-- <ul>
-          <li><a href="#presentacion"><button>Presentación</button></a></li>
-          <li><a href="#formacion"><button>Formación</button></a></li>
-          <li><a href="#experiencia"><button>Experiencia</button></a></li>
-          <li><a href="#portfolio"><button>Portfolio</button></a></li>
-        <ul>       -->
-          <a href="#presentacion"><button>Presentación</button></a>
-          <a href="#formacion"><button>Formación</button></a>
-          <a href="#experiencia"><button>Experiencia</button></a>
-          <a href="#portfolio"><button>Portfolio</button></a>
+        <ul>
+          <li><a href="#presentacion">Presentación</a></li>
+          <li><a href="#formacion">Formación</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
       </div>
-
     </nav>
-
-    <div>
-      <a name="presentacion">
-      <div class="seccion z-depth-3">
-      </a> 
-        <h1 class="titulo-seccion">Quién soy</h1> 
+    <!-- seccion principal con datos/formacion/experiencia/portfolio -->
+    <section>
+      <!-- datos -->      
+      <div class="seccion">      
+        <h1 id="presentacion" class="titulo-seccion">Quién soy</h1> 
         <hr>     
         <h2 id="nombre">Agustín Cabero</h2>
         <h3 id="puesto">Front-End jr.</h3>
@@ -50,38 +39,32 @@
           <li>Teléfono: 223-4726116</li>
           <li>Skype: agustin.cabero</li>
         </ul>
-        <p class="flow-text parrafo">Soy estudiante de Ingeniería en Informática en la UNMDP y un apasionado por la literatura y los videojuegos. Actualmente me desempeño en el sector de Administración y Servicios Financieros, no obstante, me encuentro en la búsqueda de un cambio que me beneficie, no solo económicamente, sino que también me permita un mayor desarrollo en lo profesional y en lo personal.</p>
-        <p class="flow-text parrafo">Mi objetivo es establecerme y consolidarme en una empresa que me otorgue estabilidad laboral y un buen ambiente de trabajo, y aplicar mis experiencias y conocimientos para el buen desempeño de las funciones asignadas.</p>
-      </div>      
-
-      <a name="formacion">
-      <div class="seccion z-depth-3">
-      <a>
-        <h1 class="titulo-seccion">Formación</h1>
+        <p class="parrafo">Soy estudiante de Ingeniería en Informática en la UNMDP y un apasionado por la literatura y los videojuegos. Actualmente me desempeño en el sector de Administración y Servicios Financieros, no obstante, me encuentro en la búsqueda de un cambio que me beneficie, no solo económicamente, sino que también me permita un mayor desarrollo en lo profesional y en lo personal.</p>
+        <p class="parrafo">Mi objetivo es establecerme y consolidarme en una empresa que me otorgue estabilidad laboral y un buen ambiente de trabajo, y aplicar mis experiencias y conocimientos para el buen desempeño de las funciones asignadas.</p>
+      </div>
+      <!-- formacion -->
+      <div class="seccion">
+        <h1 id="formacion" class="titulo-seccion">Formación</h1>
         <hr>        
         <h4 class="punto-seccion">ACAMICA</h4>
-        <p class="flow-text parrafo">Desarrollo web full-stack.</p>        
+        <p class="parrafo">Desarrollo web full-stack.</p>        
         <h4 class="punto-seccion">UNMDP</h4>
-        <p class="flow-text parrafo">Ingeniería en informática. <span>(En curso)</span></p>        
+        <p class="parrafo">Ingeniería en informática. <span>(En curso)</span></p>        
         <h4 class="punto-seccion">EEM 24</h4>
-        <p class="flow-text parrafo">Bachiller con orientación en Cs.Sociales y Comunicación</p>        
+        <p class="parrafo">Bachiller con orientación en Cs.Sociales y Comunicación</p>        
       </div>
-      
-      <a name="experiencia">
-      <div class="seccion z-depth-3">
-      </a>
-        <h1 class="titulo-seccion">Experiencia</h1> 
+      <!-- experiencia -->     
+      <div class="seccion">      
+        <h1 id="experiencia" class="titulo-seccion">Experiencia</h1> 
         <hr>        
         <h4 class="punto-seccion">RIPSA</h4>
         <p class="flow-text parrafo">Cuento con más de 10 años de experiencia en el sector de administración y servicios financieros, puntualmente desempeñandome en pago a proveedores.</p>        
       </div>
-      
-      <a name="portfolio">
-      <div class="seccion z-depth-3">
-      </a>
-        <h1 class="titulo-seccion">Portfolio</h1>
+      <!-- portfolio -->
+      <div class="seccion">
+        <h1 id="portfolio" class="titulo-seccion">Portfolio</h1>
         <hr>      
-        <ul>
+        <ul id="proyectos">
           <li><img class="proyectos" src="imagenes/cv-icon.png"></li>
           <li><img class="proyectos" src="imagenes/ciudad-zombie-icon.png"></li>
           <li><img class="proyectos" src="imagenes/encuestados-icon.png"></li>
@@ -93,7 +76,10 @@
           <li><img class="proyectos" src="imagenes/rompecabezas-icon.png"></li>
         </ul>
       </div>
-    </div>    
-     
+    </section>
+    <!-- footer con el link a github -->
+    <footer>
+      <a target="_blank" href="https://github.com/agustincabero"><img src="imagenes/github.png"></a>
+    </footer>     
   </body>
 </html>

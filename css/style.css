@@ -1,0 +1,140 @@
+body{
+	background: #90caf9;
+}
+nav {
+	top: 5%;	
+	width: 25%;
+	float: left;
+	position: fixed;	
+}
+section {
+	width: 74%;
+	float: right;
+}
+footer{
+	clear: both;
+	padding: 5px;
+	margin: 10px;
+}
+footer img{
+	margin-bottom: 5px;	
+	float: right;
+	height: 70px;
+}
+.parrafo span{
+	color: #757575;
+}
+.seccion{
+	font-family: 'Neuton', serif;
+	margin: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 95%;
+	float: right;
+	background: #e3f2fd;
+	border-radius: 20px 50px;	
+}
+.titulo-seccion {
+	font-family: 'Neuton', serif;
+	color: #212121;
+	font-weight: lighter;
+	font-size: 25px;
+	font-weight: bold;
+}
+.punto-seccion {
+	font-family: 'Neuton', serif;
+	color: #757575;
+	font-weight: lighter;
+	font-size: 20px
+}
+.parrafo{
+	font-family: 'Neuton', serif;
+	color: #212121;
+}
+ul{
+	list-style-type: none;
+}
+.proyectos{
+	height: 240px;
+	width: 240px;
+    float: left;   
+}
+#nombre {
+	font-family: 'Roboto Slab', serif;
+	color: #212121;
+	font-weight: bolder;
+	font-size: 40px;
+}
+#puesto {
+	font-family: 'Neuton', serif;
+	color: #757575;
+	font-weight: lighter;
+	font-size: 22px
+}
+#datos{
+	font-family: 'Roboto Slab', serif;
+	color: #212121;	
+	font-size: 20px;
+	font-weight: bold;
+}
+.avatar {
+	margin: auto;	
+	display: block;
+	height: 95%;
+    width: 95%;
+    border-radius: 50%;       
+}
+nav ul {
+	margin: auto;    	
+	display: block;       
+ 	list-style-type: none;
+    margin-bottom: 2%;
+    padding: 10px 0px;
+    width: 80%;
+}    
+nav li {
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5px;
+	display: block;
+	border: solid 1px #64b5f6;
+	border-radius: 15px;
+	background-color: #bbdefb;    
+}    
+nav li a {
+    display: block;
+    color: #212121;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: lighter;
+}    
+nav ul li:hover {
+    background-color: #64b5f6;    
+    border: solid 1px #64b5f6;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 800px){
+	nav li a{
+		font-size: 12px;
+	}
+	nav {
+		top: 5%;	
+		width: 100%;
+		float: none;
+		position: relative;	
+	}
+	section {
+		width: 100%;
+		float: none;
+		margin-left: 15px;
+	}
+	.proyectos{
+		height: 60px;
+		width: 60px;
+    	float: left;   
+	}
+}
